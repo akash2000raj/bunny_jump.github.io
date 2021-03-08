@@ -194,11 +194,11 @@ this.create_rightbtn();
 this.create_leftbtn();
 this.pressleft=this.rexGestures.add.press(this.leftbtn,{
     enable:true,
-    time:10
+    time:1
 });
 this.pressright=this.rexGestures.add.press(this.rightbtn,{
     enable:true,
-    time:10
+    time:1
 });
 
 }
@@ -274,7 +274,8 @@ if(this.bunny.y>bottom_most_platform.y+100)
 {
     //console.log('GAME OVER');
     this.gameplaySFX.stop(true);
-
+this.leftvelocity =false;
+    this.rightvelocity =false;
     this.scene.start('gameover');
    
 
