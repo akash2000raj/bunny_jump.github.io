@@ -478,7 +478,7 @@ this.presspausebtn =this.rexGestures.add.press(this.pausebtn,{
 create_rightbtn()
 {
 
-this.rightbtn = this.add.image(430,550,'right').setScrollFactor(0).setScale(1);
+this.rightbtn = this.add.image(430,550,'right').setScrollFactor(0).setScale(1.3);
 
 
 
@@ -490,7 +490,7 @@ this.rightbtn = this.add.image(430,550,'right').setScrollFactor(0).setScale(1);
 create_leftbtn()
 {
 
-this.leftbtn = this.add.image(50,550,'left').setScrollFactor(0).setScale(1);
+this.leftbtn = this.add.image(50,550,'left').setScrollFactor(0).setScale(1.3);
 
 }
 
