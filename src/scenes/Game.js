@@ -247,6 +247,7 @@ this.pressleft.on('pressstart',(press)=>
 this.pressleft.on('pressend',(press)=>
 {
     this.leftvelocity =false;
+    this.bunny.setVelocityX(0);
     this.leftbtn.setTexture('left');
 })
 
@@ -258,6 +259,7 @@ this.pressright.on('pressstart',(press)=>
 this.pressright.on('pressend',(press)=>
 {
     this.rightvelocity =false;
+    this.bunny.setVelocityX(0);
     this.rightbtn.setTexture('right')
 });
 
